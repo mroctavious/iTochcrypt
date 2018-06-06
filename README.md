@@ -28,5 +28,5 @@ Want to contribute? That would be great!
 Right now, it is a school project but I think it's a great idea, that's why I want to keep working on it in my free time. You are welcome to join :D.
 
 **Free Software, Hell Yeah!**
-Universidad Autonoma de Queretaro.
+A very special THANKS is to M.S.I Fausto Abraham Jacques Docent from Universidad Autonoma de Queretaro, for being a sample for the university and and always looking for the wisdom and passion from the student.
 Viva Mexico!
