@@ -10,38 +10,38 @@
 		E700DCAB20A8AEED00E1F695 /* FriendsControllerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E700DCAA20A8AEED00E1F695 /* FriendsControllerHelper.swift */; };
 		E700DCB020A8BA6A00E1F695 /* Friend+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E700DCAC20A8BA6A00E1F695 /* Friend+CoreDataClass.swift */; };
 		E700DCB120A8BA6A00E1F695 /* Friend+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E700DCAD20A8BA6A00E1F695 /* Friend+CoreDataProperties.swift */; };
-		E700DCB520A8E5C600E1F695 /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E700DCB420A8E5C600E1F695 /* ChatLogController.swift */; };
 		E700DCB720ACA1A200E1F695 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E700DCB620ACA1A200E1F695 /* CustomTabBarController.swift */; };
 		E727BB8520C64E1A006AAD6D /* Message+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E727BB8320C64E1A006AAD6D /* Message+CoreDataClass.swift */; };
 		E727BB8620C64E1A006AAD6D /* Message+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E727BB8420C64E1A006AAD6D /* Message+CoreDataProperties.swift */; };
 		E729329420B71E0100241A5F /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = E729329320B71E0100241A5F /* SwiftyJSON.swift */; };
 		E77D5FC720A3BA86002BA7B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77D5FC620A3BA86002BA7B8 /* AppDelegate.swift */; };
-		E77D5FC920A3BA86002BA7B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77D5FC820A3BA86002BA7B8 /* ViewController.swift */; };
 		E77D5FCF20A3BA86002BA7B8 /* messenger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E77D5FCD20A3BA86002BA7B8 /* messenger.xcdatamodeld */; };
 		E77D5FD120A3BA86002BA7B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E77D5FD020A3BA86002BA7B8 /* Assets.xcassets */; };
 		E77D5FD420A3BA86002BA7B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E77D5FD220A3BA86002BA7B8 /* LaunchScreen.storyboard */; };
 		E77D5FDD20A3EAC1002BA7B8 /* RGBAPixelStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77D5FDB20A3EAC0002BA7B8 /* RGBAPixelStruct.swift */; };
 		E77D5FDE20A3EAC1002BA7B8 /* hcImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77D5FDC20A3EAC0002BA7B8 /* hcImage.swift */; };
+		E783CB6120C863F000531531 /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E783CB5F20C863F000531531 /* ChatLogController.swift */; };
+		E783CB6220C863F000531531 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E783CB6020C863F000531531 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E700DCAA20A8AEED00E1F695 /* FriendsControllerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsControllerHelper.swift; sourceTree = "<group>"; };
 		E700DCAC20A8BA6A00E1F695 /* Friend+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Friend+CoreDataClass.swift"; sourceTree = "<group>"; };
 		E700DCAD20A8BA6A00E1F695 /* Friend+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Friend+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		E700DCB420A8E5C600E1F695 /* ChatLogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
 		E700DCB620ACA1A200E1F695 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 		E727BB8320C64E1A006AAD6D /* Message+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Message+CoreDataClass.swift"; sourceTree = "<group>"; };
 		E727BB8420C64E1A006AAD6D /* Message+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Message+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		E729329320B71E0100241A5F /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		E77D5FC320A3BA86002BA7B8 /* messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = messenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E77D5FC620A3BA86002BA7B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E77D5FC820A3BA86002BA7B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E77D5FCE20A3BA86002BA7B8 /* messenger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = messenger.xcdatamodel; sourceTree = "<group>"; };
 		E77D5FD020A3BA86002BA7B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E77D5FD320A3BA86002BA7B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E77D5FD520A3BA86002BA7B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E77D5FDB20A3EAC0002BA7B8 /* RGBAPixelStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBAPixelStruct.swift; sourceTree = "<group>"; };
 		E77D5FDC20A3EAC0002BA7B8 /* hcImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hcImage.swift; sourceTree = "<group>"; };
+		E783CB5F20C863F000531531 /* ChatLogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
+		E783CB6020C863F000531531 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,10 +74,11 @@
 		E77D5FC520A3BA86002BA7B8 /* messenger */ = {
 			isa = PBXGroup;
 			children = (
+				E783CB5F20C863F000531531 /* ChatLogController.swift */,
+				E783CB6020C863F000531531 /* ViewController.swift */,
 				E77D5FDC20A3EAC0002BA7B8 /* hcImage.swift */,
 				E77D5FDB20A3EAC0002BA7B8 /* RGBAPixelStruct.swift */,
 				E77D5FC620A3BA86002BA7B8 /* AppDelegate.swift */,
-				E77D5FC820A3BA86002BA7B8 /* ViewController.swift */,
 				E77D5FD020A3BA86002BA7B8 /* Assets.xcassets */,
 				E77D5FD220A3BA86002BA7B8 /* LaunchScreen.storyboard */,
 				E77D5FD520A3BA86002BA7B8 /* Info.plist */,
@@ -88,7 +89,6 @@
 				E700DCAA20A8AEED00E1F695 /* FriendsControllerHelper.swift */,
 				E700DCAC20A8BA6A00E1F695 /* Friend+CoreDataClass.swift */,
 				E700DCAD20A8BA6A00E1F695 /* Friend+CoreDataProperties.swift */,
-				E700DCB420A8E5C600E1F695 /* ChatLogController.swift */,
 				E700DCB620ACA1A200E1F695 /* CustomTabBarController.swift */,
 			);
 			path = messenger;
@@ -165,16 +165,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E77D5FC920A3BA86002BA7B8 /* ViewController.swift in Sources */,
+				E783CB6220C863F000531531 /* ViewController.swift in Sources */,
 				E700DCB720ACA1A200E1F695 /* CustomTabBarController.swift in Sources */,
 				E77D5FDE20A3EAC1002BA7B8 /* hcImage.swift in Sources */,
 				E77D5FC720A3BA86002BA7B8 /* AppDelegate.swift in Sources */,
 				E77D5FCF20A3BA86002BA7B8 /* messenger.xcdatamodeld in Sources */,
-				E700DCB520A8E5C600E1F695 /* ChatLogController.swift in Sources */,
 				E77D5FDD20A3EAC1002BA7B8 /* RGBAPixelStruct.swift in Sources */,
 				E727BB8620C64E1A006AAD6D /* Message+CoreDataProperties.swift in Sources */,
 				E700DCB120A8BA6A00E1F695 /* Friend+CoreDataProperties.swift in Sources */,
 				E700DCB020A8BA6A00E1F695 /* Friend+CoreDataClass.swift in Sources */,
+				E783CB6120C863F000531531 /* ChatLogController.swift in Sources */,
 				E729329420B71E0100241A5F /* SwiftyJSON.swift in Sources */,
 				E700DCAB20A8AEED00E1F695 /* FriendsControllerHelper.swift in Sources */,
 				E727BB8520C64E1A006AAD6D /* Message+CoreDataClass.swift in Sources */,

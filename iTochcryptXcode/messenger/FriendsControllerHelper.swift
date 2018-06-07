@@ -84,35 +84,35 @@ extension FriendsController
             
             
             //Mensajes Noctis
-            createMessageWithText(text: "Didn't...mean to do that", friend: noctis, minutesAgo: 4, context: context);
-            createMessageWithText(text: "Yes, you did!", friend: noctis, minutesAgo: 3, context: context);
-            createMessageWithText(text: "Ok, i'll talk to you later man!", friend: noctis, minutesAgo: 2, context: context);
+            FriendsController.createMessageWithText(text: "Didn't...mean to do that", friend: noctis, minutesAgo: 4, context: context);
+            FriendsController.createMessageWithText(text: "Yes, you did!", friend: noctis, minutesAgo: 3, context: context);
+            FriendsController.createMessageWithText(text: "Ok, i'll talk to you later man!", friend: noctis, minutesAgo: 2, context: context);
             
             //Mensajes Shantotto
-            createMessageWithText(text: "Hohohoho como te atreveis, perra!", friend: shantotto, minutesAgo: 1, context: context);
+            FriendsController.createMessageWithText(text: "Hohohoho como te atreveis, perra!", friend: shantotto, minutesAgo: 1, context: context);
             //Respuesta
-            createMessageWithText(text: "Disculpa?", friend: shantotto, minutesAgo: 1, context: context, isSender: true);
-            
+            FriendsController.createMessageWithText(text: "Disculpa?", friend: shantotto, minutesAgo: 1, context: context, isSender: true);
+ 
             //Mensajes de Edward
-            createMessageWithText(text: "I think I know. I don't think I know. I don't think I think I know. I don't think I think.", friend: ed, minutesAgo: 10, context: context)
+            FriendsController.createMessageWithText(text: "I think I know. I don't think I know. I don't think I think I know. I don't think I think.", friend: ed, minutesAgo: 10, context: context)
 
             //Mensajes Noctis
-            createMessageWithText(text: "If Alice was still alive she’d be over 200 years old.", friend: faye, minutesAgo: 1440*2, context: context);
-            createMessageWithText(text: " We’re Romanies. For eons we’ve wandered the stars looking for love. It’s our way.", friend: faye, minutesAgo: 1440*3, context: context);
-            createMessageWithText(text: "The wilds are calling me! You can’t keep me locked up!", friend: faye, minutesAgo: 1440*4, context: context);
+            FriendsController.createMessageWithText(text: "If Alice was still alive she’d be over 200 years old.", friend: faye, minutesAgo: 1440*2, context: context);
+            FriendsController.createMessageWithText(text: " We’re Romanies. For eons we’ve wandered the stars looking for love. It’s our way.", friend: faye, minutesAgo: 1440*3, context: context);
+            FriendsController.createMessageWithText(text: "The wilds are calling me! You can’t keep me locked up!", friend: faye, minutesAgo: 1440*4, context: context);
             
             //Mensajes de Janis
-            createMessageWithText(text: "The more you live, the less you die.", friend: janis, minutesAgo: 1440*34, context: context);
-            createMessageWithText(text: "If you've got a today, don't wear it tomorrow. Tomorrow never happens. It's all the same day.", friend: janis, minutesAgo: 1440*35, context: context);
-            createMessageWithText(text: "Freedom is just another word for when you have NOTHING left to lose.", friend: janis, minutesAgo: 1440*36, context: context);
-            createMessageWithText(text: "Singing, it's like it's like loving somebody, it's a supreme emotional and physical experience.", friend: janis, minutesAgo: 1440*37, context: context);
+            FriendsController.createMessageWithText(text: "The more you live, the less you die.", friend: janis, minutesAgo: 1440*34, context: context);
+            FriendsController.createMessageWithText(text: "If you've got a today, don't wear it tomorrow. Tomorrow never happens. It's all the same day.", friend: janis, minutesAgo: 1440*35, context: context);
+            FriendsController.createMessageWithText(text: "Freedom is just another word for when you have NOTHING left to lose.", friend: janis, minutesAgo: 1440*36, context: context);
+            FriendsController.createMessageWithText(text: "Singing, it's like it's like loving somebody, it's a supreme emotional and physical experience.", friend: janis, minutesAgo: 1440*37, context: context);
             
             
             //Mensajes de Aristegui
-            createMessageWithText(text: "Hay un conjunto de concesiones en juego, y la resolución final sobre lo que pase con ellas se encuentra en el cajón del Presidente.", friend: aristegui, minutesAgo: 60*24*30, context: context);
-            createMessageWithText(text: "Los poderes dominantes en las telecomunicaciones impiden la entrada de nuevos competidores, y a los que existen les hace la vida verdaderamente imposible.", friend: aristegui, minutesAgo: 60*24*35, context: context);
-            createMessageWithText(text: "¿Por qué en México los empresarios de los medios pueden ser sometidos a presiones para que silencien a los comunicadores?", friend: aristegui, minutesAgo: 60*24*40, context: context);
-            createMessageWithText(text: "¿Qué clase de país es éste, que por un comentario editorial, se le corta la cabeza a quien lo comentó?", friend: aristegui, minutesAgo: 60*24*45, context: context);
+            FriendsController.createMessageWithText(text: "Hay un conjunto de concesiones en juego, y la resolución final sobre lo que pase con ellas se encuentra en el cajón del Presidente.", friend: aristegui, minutesAgo: 60*24*30, context: context);
+            FriendsController.createMessageWithText(text: "Los poderes dominantes en las telecomunicaciones impiden la entrada de nuevos competidores, y a los que existen les hace la vida verdaderamente imposible.", friend: aristegui, minutesAgo: 60*24*35, context: context);
+            FriendsController.createMessageWithText(text: "¿Por qué en México los empresarios de los medios pueden ser sometidos a presiones para que silencien a los comunicadores?", friend: aristegui, minutesAgo: 60*24*40, context: context);
+            FriendsController.createMessageWithText(text: "¿Qué clase de país es éste, que por un comentario editorial, se le corta la cabeza a quien lo comentó?", friend: aristegui, minutesAgo: 60*24*45, context: context);
             
             
             do
@@ -127,7 +127,7 @@ extension FriendsController
         
         loadData();
     }
-    private func createMessageWithText( text: String, friend: Friend, minutesAgo: Double, context: NSManagedObjectContext, isSender: Bool = false )
+    static func createMessageWithText( text: String, friend: Friend, minutesAgo: Double, context: NSManagedObjectContext, isSender: Bool = false )
     {
         let message = NSEntityDescription.insertNewObject(forEntityName: "Message", into: context ) as! Message;
         message.text = text;

@@ -16,6 +16,12 @@ class FriendsController: UICollectionViewController, UICollectionViewDelegateFlo
     
     //Creamos arreglo de mensajes
     var messages: [Message]?;
+    //Esta funcion hace que la barra aparesca en la patalla de inicio
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        tabBarController?.tabBar.isHidden = false
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
