@@ -43,7 +43,7 @@ def randomMatrixKey( size, modulus ):
 
 ##Funciones que cargan los diccionarios iniciales
 def loadDictionaryPosVal():
-	with open('config/PositionValues.json') as data_file:
+	with open('iTochcrypt/PositionValues.json') as data_file:
 		data = json.load(data_file);
 	return data;
 
@@ -311,7 +311,7 @@ class Message(Resource):
 
 		##Encriptando el mensaje
 		message = hcObject.encrypt(message);
-		query = "INSERT INTO it_messages( idHistKey, message, idUserReceiver, idUserSender) VALUES( %d, '%s', %d, %d )" % (int(keyId), message, int(userId), int(userDest));
+		query = "INSERT INTO it_messages( idKey, message, idUserReceiver, idUserSender) VALUES( %d, '%s', %d, %d )" % (int(keyId), message, int(userId), int(userDest));
 
 		##Agregar a la base de datos
 		print(tcDB.insertToDB(query));
@@ -327,7 +327,6 @@ class getKey(Resource):
 		##Limpiando el diccionario
 		myDict =  { key:value for (key,value) in result[0].items()};
 		return jsonify(myDict)
-
 
 def getUsers():
 	return jsonify({'users':users })
@@ -353,3 +352,7 @@ api.add_resource( getKey, '/keys/<id>' )
 
 if __name__ == '__main__':
 	app.run( port='8888', debug=True, host='0.0.0.0', threaded=True)
+
+
+##Hay que actualizar los mensajes con la fecha
+## 	SELECT * FROM messages WHERE date BETWEEN(LastConnection, Now() );
