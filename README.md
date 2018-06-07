@@ -22,6 +22,15 @@ $ chmod 755 install.sh
 $ ./install.sh
 ```
 
+### Admin
+
+There is a tool called, adminCLI.py. You need to run it, there you will find an interactive interface where you can add, delete, users, view all the messages sent, change user keys and even see what messages they have sent.
+
+```sh
+$ cd iTochcrypt
+$ chmod 755 adminCLI.py
+$ ./adminCLI.py
+```
 ### Development
 
 Want to contribute? That would be great!
